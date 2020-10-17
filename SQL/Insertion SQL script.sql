@@ -1,0 +1,1 @@
+INSERT INTO users VALUES (1, "A", "H", "aayousry@gmail.com", "admin", "123 address rd", NULL, "city", "MA", "02121", "USA", true);

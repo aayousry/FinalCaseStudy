@@ -13,10 +13,10 @@ CREATE TABLE users (
 	`password` VARCHAR(255) NOT NULL,
 	street_address VARCHAR(255) NOT NULL,
 	apartment_number INT,
-	City VARCHAR(50) NOT NULL,
+	city VARCHAR(50) NOT NULL,
    state_postal_code CHAR(2) NOT NULL,
    zip_code VARCHAR(16) NOT NULL,
-	Country VARCHAR(50) NOT NULL,
+	country VARCHAR(50) NOT NULL,
 	is_admin BOOLEAN NOT NULL,
 	PRIMARY KEY (id));
 	
